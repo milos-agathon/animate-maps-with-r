@@ -68,11 +68,9 @@ head(asia_sf)
 # 3. JOIN DATA & SHAPEFILE
 #-------------------------
 internet_asia_sf <- dplyr::inner_join(
-    asia_sf, internet_world_df,
+    asia_sf, internet_asia_df,
     by = c("iso_a2" = "iso2")
 )
-
-internet_asia_sf
 
 # 4. BREAKS
 #----------
