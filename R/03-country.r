@@ -61,7 +61,7 @@ internet_india_df <- internet_world_df |>
     dplyr::filter(iso2 == "IN") |>
     dplyr::filter(Year < 2021)
 
-print(india_df, n = 21)
+print(internet_india_df, n = 21)
 
 # 3. JOIN DATA & SHAPEFILE
 #-------------------------
